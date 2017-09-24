@@ -1,0 +1,72 @@
+{
+    "manifest_version": 2,
+    "name": "Ctrl Tabs",
+    "version": "0.1",
+    "description": "Allows changing to a different tab by pressing Ctrl and a number.",
+    "developer": {
+        "name": "Mikel Ward",
+        "url": "https://mikelward.com"
+    },
+    "permissions": [
+        "background"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "commands": {
+        "tab1": {
+            "suggested_key": {
+                "default": "Ctrl+1"
+            },
+            "description": "Change to 1st tab"
+        },
+        "tab2": {
+            "suggested_key": {
+                "default": "Ctrl+2"
+            },
+            "description": "Change to 2nd tab"
+        },
+        "tab3": {
+            "suggested_key": {
+                "default": "Ctrl+3"
+            },
+            "description": "Change to 3rd tab"
+        },
+        "tab4": {
+            "suggested_key": {
+                "default": "Ctrl+4"
+            },
+            "description": "Change to 4th tab"
+        },
+        "tab5": {
+            "suggested_key": {
+                "default": "Ctrl+5"
+            },
+            "description": "Change to 5th tab"
+        },
+        "tab6": {
+            "suggested_key": {
+                "default": "Ctrl+6"
+            },
+            "description": "Change to 6th tab"
+        },
+        "tab7": {
+            "suggested_key": {
+                "default": "Ctrl+7"
+            },
+            "description": "Change to 7th tab"
+        },
+        "tab8": {
+            "suggested_key": {
+                "default": "Ctrl+8"
+            },
+            "description": "Change to 8th tab"
+        },
+        "tab9": {
+            "suggested_key": {
+                "default": "Ctrl+9"
+            },
+            "description": "Change to last tab"
+        }
+    }
+}
